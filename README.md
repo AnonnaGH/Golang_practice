@@ -121,4 +121,35 @@ Note: It is not possible to declare a variable using :=, without assigning a val
 If the value of a variable is known from the start, you can declare the variable and assign a value to it on one line:
 ![image](https://user-images.githubusercontent.com/44522472/156933264-68a7ffd7-632a-4b35-a408-16ae2b4269a4.png)
 
+# Variable Declaration Without Initial Value
+In Go, all variables are initialized. So, if you declare a variable without an initial value, its value will be set to the default value of its type: <br>
+![image](https://user-images.githubusercontent.com/44522472/156933830-6c088694-9c0c-4f6d-a0b6-8c5e5b259fae.png)
+
+### Example explained
+### In this example there are 3 variables:
+
+a <br>
+b <br>
+c <br>
+### These variables are declared but they have not been assigned initial values.
+
+### By running the code, we can see that they already have the default values of their respective types:
+
+a is "" <br>
+b is 0 <br>
+c is false <br>
+
+# Value Assignment After Declaration
+### It is possible to assign a value to a variable after it is declared. This is helpful for cases the value is not initially known.
+![image](https://user-images.githubusercontent.com/44522472/156933944-b7577423-af01-4e7f-b845-7e95e8a868e9.png)
+
+Note: It is not possible to declare a variable using ":=" without assigning a value to it. <br>
+
+# Difference Between var and :=
+# There are some small differences between the var var := 
+
+![image](https://user-images.githubusercontent.com/44522472/156934019-f3ba87a7-7a41-4e7b-bc36-83a6071bfb22.png)
+
+
+
 
