@@ -18,9 +18,10 @@ Developing cross-platform enterprise applications
 Cloud-native development
 
 
-Go Compared to Python and C++
-      Go	                                                                             Python	                                      C++
-Statically typed                                                               	Dynamically typed	                         Statically typed
+# Go Compared to Python and C++
+#      Go	                                                                             Python	                                      C++
+
+# Statically typed                                                               	Dynamically typed	                         Statically typed
 Fast run time	                                                                     Slow run time	                             Fast run time
 Compiled	                                                                          Interpreted	                                Compiled
 Fast compile time                                                                  	Interpreted	                            Slow compile time
