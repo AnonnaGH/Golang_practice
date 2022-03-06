@@ -21,7 +21,7 @@ Cloud-native development
 # Go Compared to Python and C++
 #      Go &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Python &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  C++
 
-# Statically typed                                                               	Dynamically typed	                         Statically typed
+Statically typed&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Dynamically typed&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Statically typed
 Fast run time	                                                                     Slow run time	                             Fast run time
 Compiled	                                                                          Interpreted	                                Compiled
 Fast compile time                                                                  	Interpreted	                            Slow compile time
