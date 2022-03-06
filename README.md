@@ -86,10 +86,33 @@ The commented code can be saved for later reference and troubleshooting. <br>
 # Go Variable Types
 ## In Go, there are different types of variables, for example:
 
-## int- stores integers (whole numbers), such as 123 or -123
+### int- stores integers (whole numbers), such as 123 or -123
 ### float32- stores floating point numbers, with decimals, such as 19.99 or -19.99
 ### string - stores text, such as "Hello World". String values are surrounded by double quotes
 ### bool- stores values with two states: true or false
 
+# Go Variable Types
+## In Go, there are different types of variables, for example:
 
+int- stores integers (whole numbers), such as 123 or -123 <br>
+float32- stores floating point numbers, with decimals, such as 19.99 or -19.99 <br>
+string - stores text, such as "Hello World". String values are surrounded by double quotes <br>
+bool- stores values with two states: true or false <br>
+
+# Declaring (Creating) Variables
+## In Go, there are two ways to declare a variable:
+
+### 1. With the var keyword:
+Use the var keyword, followed by variable name and type:<br>
+![image](https://user-images.githubusercontent.com/44522472/156932913-3d03dc55-6521-4cc6-b91c-fec11e8f4b9d.png)
+
+### Note: You always have to specify either type or value (or both).
+
+### 2. With the := sign:
+Use the := sign, followed by the variable value: <br>
+![image](https://user-images.githubusercontent.com/44522472/156933014-7930bae0-93f8-4c62-ad2d-b6d5bc965b3d.png)
+
+Note: In this case, the type of the variable is inferred from the value (means that the compiler decides the type of the variable, based on the value).<br>
+
+Note: It is not possible to declare a variable using :=, without assigning a value to it.<br>
 
