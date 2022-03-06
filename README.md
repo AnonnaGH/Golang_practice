@@ -12,10 +12,10 @@ Go was developed at Google by Robert Griesemer, Rob Pike, and Ken Thompson in 20
 Go's syntax is similar to C++ <br>
 
 # What is Go Used For?
-Web development (server-side) 
-Developing network-based programs
-Developing cross-platform enterprise applications
-Cloud-native development
+Web development (server-side)  <br>
+Developing network-based programs  <br>
+Developing cross-platform enterprise applications <br>
+Cloud-native development <br>
 
 # Go Compared to Python and C++
 ![image](https://user-images.githubusercontent.com/44522472/156924579-edffc322-f670-4e19-b990-2c8b7bef5aa3.png)
