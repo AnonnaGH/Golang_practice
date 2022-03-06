@@ -21,18 +21,26 @@ Cloud-native development
 # Go Compared to Python and C++
 #      Go &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Python &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  C++
 
-Statically typed&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Dynamically typed&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Statically typed
+## Statically typed&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Dynamically typed&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Statically typed
 
-Fast run time &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Slow run time &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Fast run time
 
-Compiled&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Interpreted&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Compiled
+## Fast run time &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Slow run time &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Fast run time
 
-Fast compile time&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interpreted&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Slow compile time
 
-Supports concurrency through goroutines and channel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No built-in concurrency mechanism&nbsp;&nbsp;&nbsp;Supports concurrency through threads
+## Compiled&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Interpreted &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Compiled
 
-Has automatic garbage collection&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Has automatic garbage collection&nbsp;&nbsp;Does not have automatic garbage collection
 
-Does not support classes and objects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Has classes and objects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Has classes and objects
+## Fast compile time&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interpreted&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Slow compile time
 
-Does not support inheritance&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Supports inheritance&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Supports inheritance
+
+## Supports concurrency through goroutines and channel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No built-in concurrency mechanism&nbsp;&nbsp;&nbsp;Supports concurrency through threads
+
+
+## Has automatic garbage collection&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Has automatic garbage collection&nbsp;&nbsp;Does not have automatic garbage collection
+
+
+## Does not support classes and objects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Has classes and objects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Has classes and objects
+
+
+## Does not support inheritance&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Supports inheritance&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Supports inheritance
+
