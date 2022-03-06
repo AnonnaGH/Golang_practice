@@ -33,8 +33,7 @@ Cloud-native development
 ## Fast compile time&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interpreted&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Slow compile time
 
 
-## Supports concurrency &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No built-in concurrency mechanism   &nbsp;&nbsp;&nbsp; Supports concurrency
-## through goroutines and channel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; through threads
+## Supports concurrency &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No built-in concurrency mechanism   &nbsp;&nbsp;&nbsp; Supports concurrency through goroutines and channel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; through threads
 
 ## Has automatic garbage collection&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Has automatic garbage collection&nbsp;&nbsp;Does not have automatic garbage collection
 
