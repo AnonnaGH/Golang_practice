@@ -12,7 +12,7 @@ Go was developed at Google by Robert Griesemer, Rob Pike, and Ken Thompson in 20
 Go's syntax is similar to C++ <br>
 
 # What is Go Used For?
-Web development (server-side)
+Web development (server-side) 
 Developing network-based programs
 Developing cross-platform enterprise applications
 Cloud-native development
@@ -74,6 +74,14 @@ func main() { <br>
 
 
 # Comment to Prevent Code Execution
-You can also use comments to prevent the code from being executed.
+You can also use comments to prevent the code from being executed. <br>
 
-The commented code can be saved for later reference and troubleshooting.
+The commented code can be saved for later reference and troubleshooting. <br>
+
+# Go Compact Code
+You can write more compact code, like shown below (this is not recommended because it makes the code more difficult to read): <br>
+![image](https://user-images.githubusercontent.com/44522472/156932021-b97d408d-1c43-40f4-87fc-7454290ab227.png)
+
+
+
+
