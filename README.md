@@ -150,6 +150,11 @@ Note: It is not possible to declare a variable using ":=" without assigning a va
 
 ![image](https://user-images.githubusercontent.com/44522472/156934019-f3ba87a7-7a41-4e7b-bc36-83a6071bfb22.png)
 
+# Example
+This example shows declaring variables outside of a function, with the var keyword: <br>
+![image](https://user-images.githubusercontent.com/44522472/156934242-a855bd80-911d-4afa-9600-b8b52b328a07.png)
+
+
 
 
 
