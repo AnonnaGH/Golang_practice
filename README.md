@@ -37,12 +37,12 @@ Cloud-native development
 # Look at the following code, to understand it better:
 
 ## Example
-package main
-import ("fmt")
+package main <br>
+import ("fmt") <br>
 
-func main() {
-  fmt.Println("Hello World!")
-}
+func main() { <br>
+  fmt.Println("Hello World!") <br>
+} <br>
 
 
 # Example explained
