@@ -1,15 +1,15 @@
 # Golang_practice
 
-Go is a popular programming language.
-Go is used to create computer programs.
+Go is a popular programming language.<br>
+Go is used to create computer programs.<br>
 
 # Go Introduction
-What is Go?
-Go is a cross-platform, open source programming language
-Go can be used to create high-performance applications
-Go is a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language
-Go was developed at Google by Robert Griesemer, Rob Pike, and Ken Thompson in 2007
-Go's syntax is similar to C++
+## What is Go? <br>
+Go is a cross-platform, open source programming language <br>
+Go can be used to create high-performance applications <br>
+Go is a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language <br>
+Go was developed at Google by Robert Griesemer, Rob Pike, and Ken Thompson in 2007 <br>
+Go's syntax is similar to C++ <br>
 
 # What is Go Used For?
 Web development (server-side)
@@ -71,3 +71,9 @@ func main() { <br>
 
 ## Go Multi-line Comments
 ### Multi-line comments start with /* and ends with */.
+
+
+# Comment to Prevent Code Execution
+You can also use comments to prevent the code from being executed.
+
+The commented code can be saved for later reference and troubleshooting.
