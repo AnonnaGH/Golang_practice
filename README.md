@@ -55,3 +55,16 @@ func main() { <br>
 ### Line 4: func main() {} is a function. Any code inside its curly brackets {} will be executed.
 
 ### Line 5: fmt.Println() is a function made available from the fmt package. It is used to output/print text. In our example it will output "Hello World!".
+
+
+# Note:
+ In Go, any executable code belongs to the main package.
+ 
+ # Go Comments
+### A comment is a text that is ignored upon execution.
+### Comments can be used to explain the code, and to make it more readable.
+### Comments can also be used to prevent code execution when testing an alternative code.
+### Go supports single-line or multi-line comments.
+### Go Single-line Comments
+### Single-line comments start with two forward slashes (//).
+### Any text between // and the end of the line is ignored by the compiler (will not be executed).
