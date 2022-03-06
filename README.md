@@ -155,6 +155,7 @@ This example shows declaring variables outside of a function, with the var keywo
 ![image](https://user-images.githubusercontent.com/44522472/156934242-a855bd80-911d-4afa-9600-b8b52b328a07.png)
 
 
+![image](https://user-images.githubusercontent.com/44522472/156934792-d3c7eb37-2716-435b-90de-7a00468c4181.png)
 
 
 
