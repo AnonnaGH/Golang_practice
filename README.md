@@ -17,30 +17,11 @@ Developing network-based programs
 Developing cross-platform enterprise applications
 Cloud-native development
 
-
 # Go Compared to Python and C++
-#      Go &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Python &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  C++
+![image](https://user-images.githubusercontent.com/44522472/156924579-edffc322-f670-4e19-b990-2c8b7bef5aa3.png)
 
-## Statically typed&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Dynamically typed&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Statically typed
+# Notes:
 
-
-## Fast run time &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Slow run time &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Fast run time
-
-
-## Compiled&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Interpreted &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Compiled
-
-
-## Fast compile time&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interpreted&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Slow compile time
-
-
- ![image](https://user-images.githubusercontent.com/44522472/156924540-ba5d69a9-93cb-40e1-a5e6-afd0295b3510.png)
-
-
-## Has automatic garbage collection&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Has automatic garbage collection&nbsp;&nbsp;Does not have automatic garbage collection
-
-
-## Does not support classes and objects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Has classes and objects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Has classes and objects
-
-
-## Does not support inheritance&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Supports inheritance&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Supports inheritance
-
+## Compilation time refers to translating the code into an executable program
+## Concurrency is performing multiple things out-of-order, or at the same time, without affecting the final outcome
+## Statically typed means that the variable types are known at compile time
