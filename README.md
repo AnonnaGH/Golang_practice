@@ -116,3 +116,9 @@ Note: In this case, the type of the variable is inferred from the value (means t
 
 Note: It is not possible to declare a variable using :=, without assigning a value to it.<br>
 
+
+# Variable Declaration With Initial Value
+If the value of a variable is known from the start, you can declare the variable and assign a value to it on one line:
+![image](https://user-images.githubusercontent.com/44522472/156933264-68a7ffd7-632a-4b35-a408-16ae2b4269a4.png)
+
+
