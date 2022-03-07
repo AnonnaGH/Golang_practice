@@ -158,4 +158,40 @@ This example shows declaring variables outside of a function, with the var keywo
 ![image](https://user-images.githubusercontent.com/44522472/156934792-d3c7eb37-2716-435b-90de-7a00468c4181.png)
 
 
+# Go Multiple Variable Declaration
+### In Go, it is possible to declare multiple variables in the same line.
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  var a, b, c, d int = 1, 3, 5, 7
+
+  fmt.Println(a)
+  fmt.Println(b)
+  fmt.Println(c)
+  fmt.Println(d)
+}
+```
+
+### Note: If you use the type keyword, it is only possible to declare one type of variable per line.
+
+
+# If the type keyword is not specified, you can declare different types of variables in the same line:
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  var a, b = 6, "Hello"
+  c, d := 7, "World!"
+
+  fmt.Println(a)
+  fmt.Println(b)
+  fmt.Println(c)
+  fmt.Println(d)
+}
+```
 
