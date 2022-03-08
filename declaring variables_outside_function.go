@@ -1,6 +1,6 @@
 package main
 import ("fmt")
-
+// This is a comment
 var a int
 var b int = 2
 var c = 3
