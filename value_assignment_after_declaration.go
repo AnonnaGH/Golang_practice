@@ -1,3 +1,4 @@
+//value_assignment_after_declaration
 package main
 import ("fmt")
 
