@@ -15,6 +15,7 @@ Go's syntax is similar to C++ <br>
 Web development (server-side)  <br>
 Developing network-based programs  <br>
 Developing cross-platform enterprise applications <br>
+
 Cloud-native development <br>
 
 # Go Compared to Python and C++
@@ -194,4 +195,20 @@ func main() {
   fmt.Println(d)
 }
 ```
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  var a, b = 7, "Hello"
+  c, d := 8, "World!"
+
+  fmt.Println(a)
+  fmt.Println(b)
+  fmt.Println(c)
+  fmt.Println(d)
+}
+```
+
 
