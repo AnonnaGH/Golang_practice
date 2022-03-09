@@ -230,3 +230,24 @@ Variable names are case-sensitive (age, Age and AGE are three different variable
 There is no limit on the length of the variable name<br>
 A variable name cannot contain spaces  <br>
 The variable name cannot be any Go keywords <br>
+
+
+# Multi-Word Variable Names
+Variable names with more than one word can be difficult to read. <br>
+
+There are several techniques you can use to make them more readable: <br>
+
+# Camel Case
+Each word, except the first, starts with a capital letter: <br>
+
+myVariableName = "John"  <br>
+
+# Pascal Case
+Each word starts with a capital letter: <br>
+
+MyVariableName = "John" <br>
+
+# Snake Case
+Each word is separated by an underscore character: <br>
+
+my_variable_name = "John" <br>
