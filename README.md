@@ -363,3 +363,74 @@ func main() {
   fmt.Print(j, "\n")
 }
 ```
+![image](https://user-images.githubusercontent.com/44522472/157437832-14a89e57-b03e-4612-95e5-ac255e68c248.png)
+
+# It is also possible to only use one Print() for printing multiple variables.
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  var i,j string = "Hello","World"
+
+  fmt.Print(i, "\n",j)
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/157438011-c688ac46-4115-41fc-8a45-5202a629a0a4.png)
+
+If we want to add a space between string arguments, we need to use " ":
+
+ we want to add a space between string arguments, we need to use " ":
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  var i,j string = "Hello","World"
+
+  fmt.Print(i, " ", j)
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/157438175-e7a10720-1931-4167-b748-bcdfa7336692.png)
+
+#Print() inserts a space between the arguments if neither are strings:
+![image](https://user-images.githubusercontent.com/44522472/157438329-26983b83-9e65-43ae-ae04-491f93c63d05.png)
+
+# The Println() Function
+## The Println() function is similar to Print() with the difference that a whitespace is added between the arguments, and a newline is added at the end:
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  var i,j string = "Hello","World"
+
+  fmt.Println(i,j)
+}
+```![image](https://user-images.githubusercontent.com/44522472/157438480-86cf538e-9bea-46db-a336-b2d702ed0c3b.png)
+
+# The Printf() Function
+### The Printf() function first formats its argument based on the given formatting verb and then prints them.
+
+### Here we will use two formatting verbs:
+
+### %v is used to print the value of the arguments
+### %T is used to print the type of the arguments
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  var i string = "Hello"
+  var j int = 15
+
+  fmt.Printf("i has value: %v and type: %T\n", i, i)
+  fmt.Printf("j has value: %v and type: %T", j, j)
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/157438781-d06992da-7481-4f79-9097-a859decead0c.png)
+
