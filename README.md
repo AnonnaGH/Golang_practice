@@ -410,7 +410,8 @@ func main() {
 
   fmt.Println(i,j)
 }
-```![image](https://user-images.githubusercontent.com/44522472/157438480-86cf538e-9bea-46db-a336-b2d702ed0c3b.png)
+```
+![image](https://user-images.githubusercontent.com/44522472/157438480-86cf538e-9bea-46db-a336-b2d702ed0c3b.png)
 
 # The Printf() Function
 ### The Printf() function first formats its argument based on the given formatting verb and then prints them.
