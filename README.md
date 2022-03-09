@@ -435,3 +435,112 @@ func main() {
 ```
 ![image](https://user-images.githubusercontent.com/44522472/157438781-d06992da-7481-4f79-9097-a859decead0c.png)
 
+# Go Formatting Verbs
+
+## Formatting Verbs for Printf()
+Go offers several formatting verbs that can be used with the Printf() function. <br>
+
+
+# General Formatting Verbs
+The following verbs can be used with all data types: <br>
+![image](https://user-images.githubusercontent.com/44522472/157441625-a31b9b7e-e32a-4676-9f8c-d173e569123a.png)
+
+``` golang 
+package main
+import ("fmt")
+
+func main() {
+  var i = 15.5
+  var txt = "Hello World!"
+
+  fmt.Printf("%v\n", i)
+  fmt.Printf("%#v\n", i)
+  fmt.Printf("%v%%\n", i)
+  fmt.Printf("%T\n", i)
+
+  fmt.Printf("%v\n", txt)
+  fmt.Printf("%#v\n", txt)
+  fmt.Printf("%T\n", txt)
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/157441714-91acb6ec-768c-44ab-bb57-fb88684d70b7.png)
+
+# Integer Formatting Verbs
+### The following verbs can be used with the integer data type:
+
+![image](https://user-images.githubusercontent.com/44522472/157442074-46c11860-d99b-4e9c-b922-b020cc59c973.png)
+
+``` golang 
+package main
+import ("fmt")
+
+func main() {
+  var i = 15
+ 
+  fmt.Printf("%b\n", i)
+  fmt.Printf("%d\n", i)
+  fmt.Printf("%+d\n", i)
+  fmt.Printf("%o\n", i)
+  fmt.Printf("%O\n", i)
+  fmt.Printf("%x\n", i)
+  fmt.Printf("%X\n", i)
+  fmt.Printf("%#x\n", i)
+  fmt.Printf("%4d\n", i)
+  fmt.Printf("%-4d\n", i)
+  fmt.Printf("%04d\n", i)
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/157442140-88c3e548-1ea9-41b8-bd08-fb53716d915d.png)
+
+
+# String Formatting Verbs
+### The following verbs can be used with the string data type:
+![image](https://user-images.githubusercontent.com/44522472/157442267-e7b6d0d2-a4fe-4ef4-8c7a-3b11a7e6f021.png)
+
+`` golang
+package main
+import ("fmt")
+
+func main() {
+  var txt = "Hello"
+ 
+  fmt.Printf("%s\n", txt)
+  fmt.Printf("%q\n", txt)
+  fmt.Printf("%8s\n", txt)
+  fmt.Printf("%-8s\n", txt)
+  fmt.Printf("%x\n", txt)
+  fmt.Printf("% x\n", txt)
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/157442364-ee1be2cc-b3c1-431d-aa34-730dd4eaf56e.png)
+
+# Boolean Formatting Verbs
+### The following verb can be used with the boolean data type:
+![image](https://user-images.githubusercontent.com/44522472/157442435-d0dcf9e4-3a01-456b-908b-298ef100eda5.png)
+
+``` golang 
+package main
+import ("fmt")
+
+func main() {
+  var i = true
+  var j = false
+
+  fmt.Printf("%t\n", i)
+  fmt.Printf("%t\n", j)
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/157442476-d120d4f8-ce52-431f-bac1-2e590a3874ec.png)
+
+# Float Formatting Verbs
+### The following verbs can be used with the float data type:
+![image](https://user-images.githubusercontent.com/44522472/157443828-5b9a2cc3-29cc-4fd7-a1a6-58dda688aae1.png)
+
+
+
+
+
+
+
+
+
