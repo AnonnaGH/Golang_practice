@@ -340,3 +340,26 @@ func main() {
 }
 ```
 
+# Go Output Functions
+Go has three functions to output text: <br>
+![image](https://user-images.githubusercontent.com/44522472/157436805-39199c5c-ada1-473c-a942-9705a97aeda1.png)
+
+@ The Print() Function
+The Print() function prints its arguments with their default format. <br>
+
+### Print the values of i and j:
+![image](https://user-images.githubusercontent.com/44522472/157437589-382b5b1b-8c27-41aa-94b5-d4c0b692e737.png)
+
+# If we want to print the arguments in new lines, we need to use \n.
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  var i,j string = "Hello","World"
+
+  fmt.Print(i, "\n")
+  fmt.Print(j, "\n")
+}
+```
