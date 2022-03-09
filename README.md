@@ -274,4 +274,14 @@ func main() {
   fmt.Println(PI)
 }
 ```
+# Constant Rules
+Constant names follow the same naming rules as variables <br>
+Constant names are usually written in uppercase letters (for easy identification and differentiation from variables) <br>
+Constants can be declared both inside and outside of a function <br>
 
+
+# Constant Types
+## There are two types of constants:
+
+# *Typed constants
+# *Untyped constants
