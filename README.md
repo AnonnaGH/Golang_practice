@@ -395,7 +395,7 @@ func main() {
 ```
 ![image](https://user-images.githubusercontent.com/44522472/157438175-e7a10720-1931-4167-b748-bcdfa7336692.png)
 
-#Print() inserts a space between the arguments if neither are strings:
+# Print() inserts a space between the arguments if neither are strings:
 ![image](https://user-images.githubusercontent.com/44522472/157438329-26983b83-9e65-43ae-ae04-491f93c63d05.png)
 
 # The Println() Function
