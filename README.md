@@ -320,3 +320,23 @@ func main() {
 ## When a constant is declared, it is not possible to change the value later:
 ![image](https://user-images.githubusercontent.com/44522472/157436096-3672e95d-9ccc-4ca2-a2e7-176007763e1c.png)
 
+# Multiple Constants Declaration
+### Multiple constants can be grouped together into a block for readability:
+
+``` golang
+package main
+import ("fmt")
+
+const (
+  A int = 1
+  B = 3.14
+  C = "Hi!"
+)
+
+func main() {
+  fmt.Println(A)
+  fmt.Println(B)
+  fmt.Println(C)
+}
+```
+
