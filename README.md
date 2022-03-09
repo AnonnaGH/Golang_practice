@@ -283,5 +283,5 @@ Constants can be declared both inside and outside of a function <br>
 # Constant Types
 ## There are two types of constants:
 
-# *Typed constants
-# *Untyped constants
+# * Typed constants
+# * Untyped constants
