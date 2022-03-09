@@ -283,5 +283,40 @@ Constants can be declared both inside and outside of a function <br>
 # Constant Types
 ## There are two types of constants:
 
-# * Typed constants
-# * Untyped constants
+### Typed constants
+### Untyped constants
+
+
+# Typed Constants
+## Typed constants are declared with a defined type:
+
+``` golang
+package main
+import ("fmt")
+
+const A int = 1
+
+func main() {
+  fmt.Println(A)
+}
+```
+
+# Untyped Constants
+## Untyped constants are declared without a type:
+
+``` golang 
+package main
+import ("fmt")
+
+const A = 1
+
+func main() {
+  fmt.Println(A)
+}
+```
+### Note: In this case, the type of the constant is inferred from the value (means the compiler decides the type of the constant, based on the value).
+
+# Constants: Unchangeable and Read-only
+## When a constant is declared, it is not possible to change the value later:
+![image](https://user-images.githubusercontent.com/44522472/157436096-3672e95d-9ccc-4ca2-a2e7-176007763e1c.png)
+
