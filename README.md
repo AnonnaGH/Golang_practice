@@ -251,3 +251,27 @@ MyVariableName = "John" <br>
 Each word is separated by an underscore character: <br>
 
 my_variable_name = "John" <br>
+
+
+# Go Constants
+If a variable should have a fixed value that cannot be changed, you can use the const keyword. <br>
+
+The const keyword declares the variable as "constant", which means that it is unchangeable and read-only. <br>
+![image](https://user-images.githubusercontent.com/44522472/157428124-f2b20e62-e3cb-45e9-acbc-67495213d49e.png)
+
+### Note: The value of a constant must be assigned when you declare it.
+
+# Declaring a Constant
+### Here is an example of declaring a constant in Go:
+
+``` golang
+package main
+import ("fmt")
+
+const PI = 3.14
+
+func main() {
+  fmt.Println(PI)
+}
+```
+
