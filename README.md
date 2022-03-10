@@ -537,9 +537,34 @@ func main() {
 ![image](https://user-images.githubusercontent.com/44522472/157443828-5b9a2cc3-29cc-4fd7-a1a6-58dda688aae1.png)
 
 
+# Go Data Types
+Data type is an important concept in programming. Data type specifies the size and type of variable values. <br>
+
+Go is statically typed, meaning that once a variable type is defined, it can only store data of that type. <br>
 
 
+## Go has three basic data types:
 
+## bool: represents a boolean value and is either true or false
+## Numeric: represents integer types, floating point values, and complex types
+## string: represents a string value
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  var a bool = true     // Boolean
+  var b int = 5         // Integer
+  var c float32 = 3.14  // Floating point number
+  var d string = "Hi!"  // String
+
+  fmt.Println("Boolean: ", a)
+  fmt.Println("Integer: ", b)
+  fmt.Println("Float:   ", c)
+  fmt.Println("String:  ", d)
+}
+```
 
 
 
