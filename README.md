@@ -597,6 +597,25 @@ func main() {
 <b>Signed integers: </b>  can store both positive and negative values <br>
 <b>Unsigned integers: </b> - can only store non-negative values <br>
 
+## Signed Integers
+### Signed integers, declared with one of the int keywords, can store both positive and negative values:
 
+## Go has five keywords/types of signed integers:
+![image](https://user-images.githubusercontent.com/44522472/157640359-ae71eefc-93da-49e9-bff1-6c0e04d34edc.png)
+
+# Unsigned Integers
+## Unsigned integers, declared with one of the uint keywords, can only store non-negative values:
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  var x uint = 500
+  var y uint = 4500
+  fmt.Printf("Type: %T, value: %v", x, x)
+  fmt.Printf("Type: %T, value: %v", y, y)
+}
+```
 
 
