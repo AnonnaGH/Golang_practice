@@ -566,6 +566,37 @@ func main() {
 }
 ```
 
+# Boolean Data Type
+### A boolean data type is declared with the bool keyword and can only take the values true or false.
+
+### The default value of a boolean data type is false.
+
+```
+package main
+import ("fmt")
+
+func main() {
+  var b1 bool = true // typed declaration with initial value
+  var b2 = true // untyped declaration with initial value
+  var b3 bool // typed declaration without initial value
+  b4 := true // untyped declaration with initial value
+
+  fmt.Println(b1) // Returns true
+  fmt.Println(b2) // Returns true
+  fmt.Println(b3) // Returns false
+  fmt.Println(b4) // Returns true
+}
+```
+### Note: Boolean values are mostly used for conditional testing
+
+# Go Integer Data Types
+## Integer data types are used to store a whole number without decimals, like 35, -50, or 1345000.
+
+### The integer data type has two categories:
+
+<b>Signed integers </b>- can store both positive and negative values
+Unsigned integers - can only store non-negative values
+
 
 
 
