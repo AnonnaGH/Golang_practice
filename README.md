@@ -618,4 +618,140 @@ func main() {
 }
 ```
 
+# Go Arrays
+### Arrays are used to store multiple values of the same type in a single variable, instead of declaring separate variables for each value.
 
+# Declare an Array
+### In Go, there are two ways to declare an array:
+
+## 1. With the var keyword:
+![image](https://user-images.githubusercontent.com/44522472/157693321-e13bcf84-3c20-4138-b2a2-6dd2507e3d36.png)
+
+## 2. With the := sign:
+![image](https://user-images.githubusercontent.com/44522472/157693568-bc5d2efe-94c1-4b90-bf38-2e5a6a66837d.png)
+
+# Note: The length specifies the number of elements to store in the array. In Go, arrays have a fixed length. The length of the array is either defined by a number or is inferred (means that the compiler decides the length of the array, based on the number of values).
+
+# Array Examples
+# This example declares two arrays (arr1 and arr2) with defined lengths:
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  var arr1 = [3]int{1,2,3}
+  arr2 := [5]int{4,5,6,7,8}
+
+  fmt.Println(arr1)
+  fmt.Println(arr2)
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/157693985-abf75548-074b-436d-9a7b-6f24291583e4.png)
+
+``` golang 
+package main
+import ("fmt")
+
+func main() {
+  var arr1 = [...]int{1,2,3}
+  arr2 := [...]int{4,5,6,7,8}
+
+  fmt.Println(arr1)
+  fmt.Println(arr2)
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/157696234-006d3bce-f324-4a04-a361-74da765f4c40.png)
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  var cars = [4]string{"Volvo", "BMW", "Ford", "Mazda"}
+  fmt.Print(cars)
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/157696341-a420da17-8e36-4d45-95d0-7521d7ff7524.png)
+
+# Access Elements of an Array
+You can access a specific array element by referring to the index number. <br>
+
+In Go, array indexes start at 0. That means that [0] is the first element, [1] is the second element, etc. <br>
+
+This example shows how to access the first and third elements in the prices array: <br>
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  prices := [3]int{10,20,30}
+
+  fmt.Println(prices[0])
+  fmt.Println(prices[2])
+}
+```
+
+![image](https://user-images.githubusercontent.com/44522472/157709176-84fecba4-ad2b-4a07-9dfd-735921fb59f7.png)
+
+# Change Elements of an Array
+## You can also change the value of a specific array element by referring to the index number.
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  prices := [3]int{10,20,30}
+
+  prices[2] = 50
+  fmt.Println(prices)
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/157709870-3c8a43c9-1fe5-438b-90b2-79b4444a7906.png)
+
+# Change Elements of an Array
+### You can also change the value of a specific array element by referring to the index number.
+``` golang 
+package main
+import ("fmt")
+
+func main() {
+  prices := [3]int{10,20,30}
+
+  prices[2] = 50
+  fmt.Println(prices)
+}
+```
+#Array Initialization
+### If an array or one of its elements has not been initialized in the code, it is assigned the default value of its type.
+
+### Tip: The default value for int is 0, and the default value for string is "".
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  arr1 := [5]int{} //not initialized
+  arr2 := [5]int{1,2} //partially initialized
+  arr3 := [5]int{1,2,3,4,5} //fully initialized
+
+  fmt.Println(arr1)
+  fmt.Println(arr2)
+  fmt.Println(arr3)
+}
+```
+# Initialize Only Specific Elements
+## It is possible to initialize only specific elements in an array.
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  arr1 := [5]int{1:10,2:40}
+
+  fmt.Println(arr1)
+}
+```
