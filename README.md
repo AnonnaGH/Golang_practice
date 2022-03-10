@@ -594,8 +594,8 @@ func main() {
 
 ### The integer data type has two categories:
 
-<b>Signed integers </b>- can store both positive and negative values
-Unsigned integers - can only store non-negative values
+<b>Signed integers: </b>  can store both positive and negative values <br>
+<b>Unsigned integers: </b> - can only store non-negative values <br>
 
 
 
