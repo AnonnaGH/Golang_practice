@@ -755,3 +755,11 @@ func main() {
   fmt.Println(arr1)
 }
 ```
+## Example Explained 
+ The array above has 5 elements. <br>
+
+1:10 means: assign 10 to array index 1 (second element). <br>
+2:40 means: assign 40 to array index 2 (third element). <br>
+
+# Find the Length of an Array
+## The len() function is used to find the length of an array:
