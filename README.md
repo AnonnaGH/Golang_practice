@@ -763,3 +763,69 @@ func main() {
 
 # Find the Length of an Array
 ## The len() function is used to find the length of an array:
+
+``` golang 
+package main
+import ("fmt")
+
+func main() {
+  arr1 := [4]string{"Volvo", "BMW", "Ford", "Mazda"}
+  arr2 := [...]int{1,2,3,4,5,6}
+
+  fmt.Println(len(arr1))
+  fmt.Println(len(arr2))
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/157811215-57feea89-d78e-44a1-a36f-e4160db77f70.png)
+
+
+
+# Go Slices
+Slices are similar to arrays, but are more powerful and flexible. <br>
+
+Like arrays, slices are also used to store multiple values of the same type in a single variable. <br>
+
+However, unlike arrays, the length of a slice can grow and shrink as you see fit. <br>
+
+In Go, there are several ways to create a slice: <br>
+
+Using the []datatype{values} format <br>
+Create a slice from an array <br>
+Using the make() function <br>
+
+
+# Create a Slice With []datatype{values}
+
+![image](https://user-images.githubusercontent.com/44522472/157810510-8d4b3c5e-f7f0-4bce-ba55-50ff160f0f0b.png)
+A common way of declaring a slice is like this: <br>
+![image](https://user-images.githubusercontent.com/44522472/157810542-89ac964a-8ad0-4c70-a67b-89dfb97ba593.png)
+
+The code above declares an empty slice of 0 length and 0 capacity. <br>
+
+To initialize the slice during declaration, use this: <br>
+![image](https://user-images.githubusercontent.com/44522472/157810652-4221f2f1-2731-4230-a0e3-1429a9bec813.png)
+The code above declares a slice of integers of length 3 and also the capacity of 3.
+
+### In Go, there are two functions that can be used to return the length and capacity of a slice:
+
+<b> len() function - </b> returns the length of the slice (the number of elements in the slice)
+<b> cap() function - </b> returns the capacity of the slice (the number of elements the slice can grow or shrink to)
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  myslice1 := []int{}
+  fmt.Println(len(myslice1))
+  fmt.Println(cap(myslice1))
+  fmt.Println(myslice1)
+
+  myslice2 := []string{"Go", "Slices", "Are", "Powerful"}
+  fmt.Println(len(myslice2))
+  fmt.Println(cap(myslice2))
+  fmt.Println(myslice2)
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/157811092-61e216ef-e4d7-432b-9280-9fe88b5656c4.png)
+
+
