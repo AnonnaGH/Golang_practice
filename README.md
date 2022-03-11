@@ -797,6 +797,7 @@ Using the make() function <br>
 # Create a Slice With []datatype{values}
 
 ![image](https://user-images.githubusercontent.com/44522472/157810510-8d4b3c5e-f7f0-4bce-ba55-50ff160f0f0b.png)
+
 A common way of declaring a slice is like this: <br>
 ![image](https://user-images.githubusercontent.com/44522472/157810542-89ac964a-8ad0-4c70-a67b-89dfb97ba593.png)
 
@@ -828,4 +829,24 @@ func main() {
 ```
 ![image](https://user-images.githubusercontent.com/44522472/157811092-61e216ef-e4d7-432b-9280-9fe88b5656c4.png)
 
+# Create a Slice From an Array
+### You can create a slice by slicing an array:
 
+``` golang
+var myarray = [length]datatype{values} // An array
+myslice := myarray[start:end] // A slice made from the array
+```
+## This example shows how to create a slice from an array:
+`` golang
+package main
+import ("fmt")
+
+func main() {
+  arr1 := [6]int{10, 11, 12, 13, 14,15}
+  myslice := arr1[2:4]
+
+  fmt.Printf("myslice = %v\n", myslice)
+  fmt.Printf("length = %d\n", len(myslice))
+  fmt.Printf("capacity = %d\n", cap(myslice))
+}
+```
