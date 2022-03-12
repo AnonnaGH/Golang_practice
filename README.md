@@ -837,7 +837,7 @@ var myarray = [length]datatype{values} // An array
 myslice := myarray[start:end] // A slice made from the array
 ```
 ## This example shows how to create a slice from an array:
-`` golang
+``` golang
 package main
 import ("fmt")
 
@@ -849,4 +849,11 @@ func main() {
   fmt.Printf("length = %d\n", len(myslice))
   fmt.Printf("capacity = %d\n", cap(myslice))
 }
+```
+```
+In the example above myslice is a slice with length 2. It is made from arr1 which is an array with length 6.
+
+The slice starts from the second element of the array which has value 12. The slice can grow to the end of the array. This means that the capacity of the slice is 4.
+
+If myslice started from element 0, the slice capacity would be 6.
 ```
