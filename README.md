@@ -860,3 +860,10 @@ The slice starts from the second element of the array which has value 12. The sl
 
 If myslice started from element 0, the slice capacity would be 6.
 ```
+# Create a Slice With The make() Function
+### The make() function can also be used to create a slice.
+```
+slice_name := make([]type, length, capacity)
+```
+### Note: If the capacity parameter is not defined, it will be equal to length.
+
