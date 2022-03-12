@@ -850,6 +850,9 @@ func main() {
   fmt.Printf("capacity = %d\n", cap(myslice))
 }
 ```
+![image](https://user-images.githubusercontent.com/44522472/158009548-acde0a38-fc6f-4093-b86e-5805bab7feff.png)
+
+
 ```
 In the example above myslice is a slice with length 2. It is made from arr1 which is an array with length 6.
 
