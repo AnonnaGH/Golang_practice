@@ -867,3 +867,21 @@ slice_name := make([]type, length, capacity)
 ```
 ### Note: If the capacity parameter is not defined, it will be equal to length.
 
+``` golang 
+package main
+import ("fmt")
+
+func main() {
+  myslice1 := make([]int, 5, 10)
+  fmt.Printf("myslice1 = %v\n", myslice1)
+  fmt.Printf("length = %d\n", len(myslice1))
+  fmt.Printf("capacity = %d\n", cap(myslice1))
+
+  // with omitted capacity
+  myslice2 := make([]int, 5)
+  fmt.Printf("myslice2 = %v\n", myslice2)
+  fmt.Printf("length = %d\n", len(myslice2))
+  fmt.Printf("capacity = %d\n", cap(myslice2))
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/158010715-68c5ae00-b3eb-41b1-bed4-6d6bf4a0650f.png)
