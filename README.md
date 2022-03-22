@@ -885,3 +885,24 @@ func main() {
 }
 ```
 ![image](https://user-images.githubusercontent.com/44522472/158010715-68c5ae00-b3eb-41b1-bed4-6d6bf4a0650f.png)
+
+# Go Access, Change, Append and Copy Slices
+Access Elements of a Slice <br>
+You can access a specific slice element by referring to the index number.<br>
+
+In Go, indexes start at 0. That means that [0] is the first element, [1] is the second element, etc.<br>
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  prices := []int{10,20,30}
+
+  fmt.Println(prices[0])
+  fmt.Println(prices[2])
+}
+```
+## Output
+![image](https://user-images.githubusercontent.com/44522472/159422725-6454e0a2-a9d3-4010-a537-7671f04d4c8c.png)
+
