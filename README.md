@@ -906,3 +906,24 @@ func main() {
 ## Output
 ![image](https://user-images.githubusercontent.com/44522472/159422725-6454e0a2-a9d3-4010-a537-7671f04d4c8c.png)
 
+# Change Elements of a Slice
+You can also change a specific slice element by referring to the index number. <br>
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  prices := []int{10,20,30}
+  prices[2] = 50
+  fmt.Println(prices[0])
+  fmt.Println(prices[2])
+}
+```
+### output
+![image](https://user-images.githubusercontent.com/44522472/159425201-ce95d12e-bc54-4650-9a74-f40dee5817dc.png)
+
+# Append Elements To a Slice
+You can append elements to the end of a slice using the append()function: <br>
+## Syntax
+![image](https://user-images.githubusercontent.com/44522472/159426129-bcf402a7-ebab-4153-a6b4-36b1755fe7b0.png)
+
