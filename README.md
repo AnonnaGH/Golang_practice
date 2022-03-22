@@ -927,3 +927,31 @@ You can append elements to the end of a slice using the append()function: <br>
 ## Syntax
 ![image](https://user-images.githubusercontent.com/44522472/159426129-bcf402a7-ebab-4153-a6b4-36b1755fe7b0.png)
 
+``` golang
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+
+	s := []int{1, 2, 3, 4, 5, 6}
+	fmt.Printf("s = %v\n", s)
+	fmt.Printf("length = %d\n", len(s))
+	fmt.Printf("capacity = %d\n", cap(s))
+
+	s = append(s, 20, 21, 22, 23, 24, 25)
+	fmt.Printf("s = %v\n", s)
+	fmt.Printf("length = %d\n", len(s))
+	fmt.Printf("capacity =%d\n", cap(s))
+
+	s = append(s, 30, 36)
+	fmt.Printf("s = %v\n", s)
+	fmt.Printf("length = %d\n", len(s))
+	fmt.Printf("capacity =%d\n", cap(s))
+
+}
+```
+### output
+![image](https://user-images.githubusercontent.com/44522472/159431217-d8c74d73-0060-4939-8dd8-d71d33005650.png)
