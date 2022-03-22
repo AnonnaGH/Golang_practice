@@ -955,3 +955,25 @@ func main() {
 ```
 ### output
 ![image](https://user-images.githubusercontent.com/44522472/159431217-d8c74d73-0060-4939-8dd8-d71d33005650.png)
+
+# Go Operators
+
+Conditional statements are used to perform different actions based on different conditions. <br>
+
+Go Conditions <br>
+A condition can be either true or false. <br>
+
+Go supports the usual comparison operators from mathematics: <br>
+
+Less than < <br>
+Less than or equal <= <br>
+Greater than > <br>
+Greater than or equal >= <br>
+Equal to == <br>
+Not equal to != <br>
+Additionally, Go supports the usual logical operators: <br>
+
+Logical AND && <br>
+Logical OR || <br>
+Logical NOT ! <br>
+You can use these operators or their combinations to create conditions for different decisions. <br>
