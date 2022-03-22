@@ -977,3 +977,55 @@ Logical AND && <br>
 Logical OR || <br>
 Logical NOT ! <br>
 You can use these operators or their combinations to create conditions for different decisions. <br>
+
+![image](https://user-images.githubusercontent.com/44522472/159440942-bf6f6804-aaba-40c9-bb5b-7f08a6365a4f.png)
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  x := 10
+  y := 5
+  fmt.Println(x > y)
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/159441076-7b114cf8-a4f5-43da-8c37-9fbac86e4bc9.png)
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  x := 10
+  y := 5
+  fmt.Println(x != y)
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/159441791-bd83b04a-cded-4777-8cd9-0409051e45dc.png)
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  x := 10
+  y := 5
+  z := 2
+  fmt.Println((x > y) && (y > z))
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/159441992-a48bd845-c158-451b-81f7-b05d1bd5059d.png)
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  x := 10
+  y := 5
+  z := false
+  fmt.Println((x == y) || z)
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/159442099-1424a628-4452-4a79-9c8f-d94834d4cee4.png)
