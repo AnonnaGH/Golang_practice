@@ -1071,3 +1071,11 @@ func main() {
 ## Example explained <br>
 In the example above we use two variables, x and y, to test whether x is greater than y (using the > operator). As x is 20, and y is 18, and we know that 20 is <br> greater than 18, we print to the screen that "x is greater than y". <br>
 
+
+# Go if else Statement
+The else Statement <br>
+Use the else statement to specify a block of code to be executed if the condition is false. <br>
+
+### Syntax
+![image](https://user-images.githubusercontent.com/44522472/159613292-81216980-5eae-4129-afe4-b39bf2ace694.png)
+
