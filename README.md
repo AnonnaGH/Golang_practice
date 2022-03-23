@@ -1201,3 +1201,85 @@ func main() {
 }
 ```
 ![image](https://user-images.githubusercontent.com/44522472/159616348-bf1f0d9c-8ab7-4a6f-911c-efe139020ee9.png)
+
+# Go switch Statement
+Use the switch statement to select one of many code blocks to be executed. <br>
+
+The switch statement in Go is similar to the ones in C, C++, Java, JavaScript, and PHP. The difference is that it only runs the matched case so it does not need a  <br> break statement. <br>
+### Single-Case switch Syntax
+![image](https://user-images.githubusercontent.com/44522472/159616661-f82aac37-5cf7-4225-93a8-611a00e303e4.png)
+
+## This is how it works:
+
+The expression is evaluated once <br>
+The value of the switch expression is compared with the values of each case <br>
+If there is a match, the associated block of code is executed <br>
+The default keyword is optional. It specifies some code to run if there is no case match <br>
+
+# Single-Case switch Example
+### The example below uses a weekday number to calculate the weekday name:
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  day := 4
+
+  switch day {
+  case 1:
+    fmt.Println("Monday")
+  case 2:
+    fmt.Println("Tuesday")
+  case 3:
+    fmt.Println("Wednesday")
+  case 4:
+    fmt.Println("Thursday")
+  case 5:
+    fmt.Println("Friday")
+  case 6:
+    fmt.Println("Saturday")
+  case 7:
+    fmt.Println("Sunday")
+  }
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/159616984-5b9f78c9-2917-4595-b684-6eefd0a771c3.png)
+
+# The default Keyword
+The default keyword specifies some code to run if there is no case match: <br>
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  day := 8
+
+  switch day {
+  case 1:
+    fmt.Println("Monday")
+  case 2:
+    fmt.Println("Tuesday")
+  case 3:
+    fmt.Println("Wednesday")
+  case 4:
+    fmt.Println("Thursday")
+  case 5:
+    fmt.Println("Friday")
+  case 6:
+    fmt.Println("Saturday")
+  case 7:
+    fmt.Println("Sunday")
+  default:
+    fmt.Println("Not a weekday")
+  }
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/159617126-a0c80c5b-f7af-45c2-a252-2944b060b307.png)
+
+### All the case values should have the same type as the switch expression. Otherwise, the compiler will raise an error:
+![image](https://user-images.githubusercontent.com/44522472/159617189-e79ab0db-8c91-448e-8e5d-864e34d58475.png)
+
+
+
