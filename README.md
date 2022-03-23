@@ -1079,3 +1079,39 @@ Use the else statement to specify a block of code to be executed if the conditio
 ### Syntax
 ![image](https://user-images.githubusercontent.com/44522472/159613292-81216980-5eae-4129-afe4-b39bf2ace694.png)
 
+#### Using The if else Statement
+
+## In this example, time (20) is greater than 18, so the if condition is false. Because of this, we move on to the else condition and print to the screen "Good evening". If the time was less than 18, the program would print "Good day":
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  time := 20
+  if (time < 18) {
+    fmt.Println("Good day.")
+  } else {
+    fmt.Println("Good evening.")
+  }
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/159613503-209b2553-2ced-411d-862d-13eff9d95e6a.png)
+
+## In this example, the temperature is 14 so the condition for if is false so the code line inside the else statement is executed:
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  temperature := 14
+  if (temperature > 15) {
+    fmt.Println("It is warm out there")
+  } else {
+    fmt.Println("It is cold out there")
+  }
+}
+```
+### The brackets in the else statement should be like } else {:
+
+![image](https://user-images.githubusercontent.com/44522472/159613821-db763a11-f77b-4b26-be3b-869ce2958e00.png)
+
