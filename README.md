@@ -1068,3 +1068,6 @@ func main() {
 ```
 ![image](https://user-images.githubusercontent.com/44522472/159612528-18070a3f-8824-481e-8479-6464ab91b6c2.png)
 
+## Example explained <br>
+In the example above we use two variables, x and y, to test whether x is greater than y (using the > operator). As x is 20, and y is 18, and we know that 20 is <br> greater than 18, we print to the screen that "x is greater than y". <br>
+
