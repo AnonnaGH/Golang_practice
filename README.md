@@ -1115,3 +1115,48 @@ func main() {
 
 ![image](https://user-images.githubusercontent.com/44522472/159613821-db763a11-f77b-4b26-be3b-869ce2958e00.png)
 
+# Go else if Statement
+Use the else if statement to specify a new condition if the first condition is false. <br>
+### Syntax
+![image](https://user-images.githubusercontent.com/44522472/159614422-f7580f1c-aa26-48f8-aa82-7aa2eecfeb9d.png)
+
+# Using The else if Statement
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  time := 22
+  if time < 10 {
+    fmt.Println("Good morning.")
+  } else if time < 20 {
+    fmt.Println("Good day.")
+  } else {
+    fmt.Println("Good evening.")
+  }
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/159614590-ec38579e-8caa-419b-9fcd-68a22290ed45.png)
+
+## Example explained
+In the example above, time (22) is greater than 10, so the first condition is false. The next condition, in the else if statement, is also false, so we move on to <br> else condition since condition1 and condition2 are both false - and print to the screen "Good evening". <br>
+
+However, if the time was 14, our program would print "Good day." <br>
+`` golang
+package main
+import ("fmt")
+
+func main() {
+  a := 14
+  b := 14
+  if a < b {
+    fmt.Println("a is less than b.")
+  } else if a > b {
+    fmt.Println("a is more than b.")
+  } else {
+    fmt.Println("a and b are equal.")
+  }
+}
+```
+
+
