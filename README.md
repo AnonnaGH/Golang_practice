@@ -1158,5 +1158,22 @@ func main() {
   }
 }
 ```
+![image](https://user-images.githubusercontent.com/44522472/159615073-27ecab29-842d-4180-b106-9ea47bf70cc8.png)
 
+## If conditions1 and condition2 are both correct, only the code for condition1 are executed:
+``` golang
+package main
+import ("fmt")
 
+func main() {
+  x := 30
+  if x >= 10 {
+    fmt.Println("x is larger than or equal to 10.")
+  } else if x > 20
+    fmt.Println("x is larger than 20.")
+  } else {
+    fmt.Println("x is less than 10.")
+  }
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/159615272-6b37ee01-35a8-41fb-a1e1-c9d79716d5d3.png)
