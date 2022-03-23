@@ -1029,3 +1029,42 @@ func main() {
 }
 ```
 ![image](https://user-images.githubusercontent.com/44522472/159442099-1424a628-4452-4a79-9c8f-d94834d4cee4.png)
+
+### Go has the following conditional statements:
+
+Use if to specify a block of code to be executed, if a specified condition is true <br>
+Use else to specify a block of code to be executed, if the same condition is false <br>
+Use else if to specify a new condition to test, if the first condition is false <br>
+Use switch to specify many alternative blocks of code to be executed <br>
+
+# Go if statement
+Use the if statement to specify a block of Go code to be executed if a condition is true. <br>
+### Syntax
+![image](https://user-images.githubusercontent.com/44522472/159612294-caa311cf-760b-4066-bd8f-fd19bf9ad356.png)
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  if 20 > 18 {
+    fmt.Println("20 is greater than 18")
+  }
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/159612387-d61fc960-d0ad-40d2-9d70-367fde93d755.png)
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  x := 20
+  y := 18
+  if x>y {
+    fmt.Println("x is greater than y")
+  }
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/159612528-18070a3f-8824-481e-8479-6464ab91b6c2.png)
+
