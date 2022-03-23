@@ -1282,4 +1282,31 @@ func main() {
 ![image](https://user-images.githubusercontent.com/44522472/159617189-e79ab0db-8c91-448e-8e5d-864e34d58475.png)
 
 
+# The Multi-case switch Statement
+It is possible to have multiple values for each case in the switch statement: <br>
 
+## Syntax
+![image](https://user-images.githubusercontent.com/44522472/159617345-1f5ffd13-fca6-422c-b27a-8d9e68a715e6.png)
+#### Multi-case switch Example
+The example below uses the weekday number to return different text: <br>
+
+``` golang
+
+package main
+import ("fmt")
+
+func main() {
+   day := 5
+
+   switch day {
+   case 1,3,5:
+    fmt.Println("Odd weekday")
+   case 2,4:
+     fmt.Println("Even weekday")
+   case 6,7:
+    fmt.Println("Weekend")
+  default:
+    fmt.Println("Invalid day of day number")
+  }
+}
+```
