@@ -1177,3 +1177,27 @@ func main() {
 }
 ```
 ![image](https://user-images.githubusercontent.com/44522472/159615272-6b37ee01-35a8-41fb-a1e1-c9d79716d5d3.png)
+
+# Go Nested if Statement
+You can have if statements inside if statements, this is called a nested if. <br>
+
+## Syntax
+![image](https://user-images.githubusercontent.com/44522472/159616278-0f067a9c-ad0f-4874-a8fe-f3215a3d6e24.png)
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  num := 20
+  if num >= 10 {
+    fmt.Println("Num is more than 10.")
+    if num > 15 {
+      fmt.Println("Num is also more than 15.")
+     }
+  } else {
+    fmt.Println("Num is less than 10.")
+  }
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/159616348-bf1f0d9c-8ab7-4a6f-911c-efe139020ee9.png)
