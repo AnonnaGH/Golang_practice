@@ -1342,3 +1342,20 @@ func main() {
 
 }
 ```
+![image](https://user-images.githubusercontent.com/44522472/159862612-a118a640-18bb-414c-a138-a2f99502e55b.png)
+
+# Example 1 explained
+i:=0; - Initialize the loop counter (i), and set the start value to 0 <br>
+i < 5; - Continue the loop as long as i is less than 5 <br>
+i++ - Increase the loop counter value by 1 for each iteration <br>
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  for i:=0; i <= 100; i+=10 {
+    fmt.Println(i)
+  }
+}
+```
