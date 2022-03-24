@@ -1323,8 +1323,22 @@ Each execution of a loop is called an iteration. <br>
 The for loop can take up to three statements:  <br>
 ### Syntax
 ![image](https://user-images.githubusercontent.com/44522472/159859039-7aa44603-2034-4c4f-acf4-4911cdf4b883.png)
-## statement1 Initializes the loop counter value.
+#### statement1 Initializes the loop counter value.
 
-## statement2 Evaluated for each loop iteration. If it evaluates to TRUE, the loop continues. If it evaluates to FALSE, the loop ends.
+#### statement2 Evaluated for each loop iteration. If it evaluates to TRUE, the loop continues. If it evaluates to FALSE, the loop ends.
 
-## statement3 Increases the loop counter value.
+#### statement3 Increases the loop counter value.
+
+#### Note: These statements don't need to be present as loops arguments. However, they need to be present in the code in some form.
+
+# for Loop Examples
+``` golang
+package main
+
+func main() {
+	for i := 0; i < 5; i++ {
+		println(i)
+	}
+
+}
+```
