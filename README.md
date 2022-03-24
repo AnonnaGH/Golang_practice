@@ -1310,3 +1310,21 @@ func main() {
   }
 }
 ```
+# Go For Loops
+The for loop loops through a block of code a specified number of times. <br>
+
+The for loop is the only loop available in Go. <br>
+
+# Go for Loop
+Loops are handy if you want to run the same code over and over again, each time with a different value. <br>
+
+Each execution of a loop is called an iteration. <br>
+
+The for loop can take up to three statements:  <br>
+### Syntax
+![image](https://user-images.githubusercontent.com/44522472/159859039-7aa44603-2034-4c4f-acf4-4911cdf4b883.png)
+## statement1 Initializes the loop counter value.
+
+## statement2 Evaluated for each loop iteration. If it evaluates to TRUE, the loop continues. If it evaluates to FALSE, the loop ends.
+
+## statement3 Increases the loop counter value.
