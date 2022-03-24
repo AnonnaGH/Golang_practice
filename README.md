@@ -1418,3 +1418,60 @@ func main() {
   }
 }
 ```
+
+![image](https://user-images.githubusercontent.com/44522472/159902903-05d005f6-b701-4fa2-a772-4692f16fa66e.png)
+
+# The Range Keyword
+The range keyword is used to more easily iterate over an array, slice or map. It returns both the index and the value. <br>
+
+The range keyword is used like this: <br>
+
+## Syntax
+![image](https://user-images.githubusercontent.com/44522472/159903052-2b0584cf-cb74-45ca-b02b-27703e68c854.png)
+
+
+### Example
+This example uses range to iterate over an array and print both the indexes and the values at each (idx stores the index, val stores the value):  <br>
+
+``` golang 
+package main
+import ("fmt")
+
+func main() {
+  fruits := [3]string{"apple", "orange", "banana"}
+  for idx, val := range fruits {
+     fmt.Printf("%v\t%v\n", idx, val)
+  }
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/159903573-d6461d1c-30a5-478b-b988-7b42a2e4606b.png)
+
+## To only show the value or the index, you can omit the other output using an underscore (_).
+### Here, we want to omit the indexes (idx stores the index, val stores the value):
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  fruits := [3]string{"apple", "orange", "banana"}
+  for _, val := range fruits {
+     fmt.Printf("%v\n", val)
+  }
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/159903782-b454087a-5d6d-476d-9c8b-f6368d6ec80b.png)
+
+Here, we want to omit the values (idx stores the index, val stores the value): <br>
+
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  fruits := [3]string{"apple", "orange", "banana"}
+
+  for idx, _ := range fruits {
+     fmt.Printf("%v\n", idx)
+  }
+```
+![image](https://user-images.githubusercontent.com/44522472/159903928-f6721126-d5e6-4c1e-b4f4-be7e831dfd74.png)
