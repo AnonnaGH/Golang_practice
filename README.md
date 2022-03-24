@@ -1360,3 +1360,43 @@ func main() {
 }
 ```
 ![image](https://user-images.githubusercontent.com/44522472/159862873-dd8c1297-f05e-490f-b342-200a65870924.png)
+# Example 2 explained
+i:=0; - Initialize the loop counter (i), and set the start value to 0 <br>
+i <= 100; - Continue the loop as long as i is less than or equal to 100 <br>
+i+=10 - Increase the loop counter value by 10 for each iteration <br>
+
+# The continue Statement
+The continue statement is used to skip one or more iterations in the loop. It then continues with the next iteration in the loop. <br>
+
+## Example
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  for i:=0; i < 5; i++ {
+    if i == 3 {
+      continue
+    }
+    fmt.Println(i)
+  }
+}
+```
+![image](https://user-images.githubusercontent.com/44522472/159863307-5b68f548-f418-47e3-a6e9-0c9be9b1fc6a.png)
+
+# The break Statement
+The break statement is used to break/terminate the loop execution. <br>
+This example breaks out of the loop when i is equal to 3: <br>
+``` golang
+package main
+import ("fmt")
+
+func main() {
+  for i:=0; i < 5; i++ {
+    if i == 3 {
+      break
+    }
+   fmt.Println(i)
+  }
+}
+```
