@@ -1499,4 +1499,17 @@ Functions are not executed immediately. They are "saved for later use", and will
 
 In the example below, we create a function named "myMessage()". The opening curly brace ( { ) indicates the beginning of the function code, and the closing curly brace ( } ) indicates the end of the function. The function outputs "I just got executed!". To call the function, just write its name followed by two parentheses ():
  <br>
+ ## Example
  
+ ``` golang
+ package main
+import ("fmt")
+
+func myMessage() {
+  fmt.Println("I just got executed!")
+}
+
+func main() {
+  myMessage() // call the function
+}
+```
