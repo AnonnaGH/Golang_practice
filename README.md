@@ -1475,3 +1475,28 @@ func main() {
   }
 ```
 ![image](https://user-images.githubusercontent.com/44522472/159903928-f6721126-d5e6-4c1e-b4f4-be7e831dfd74.png)
+
+# Go Functions
+
+A function is a block of statements that can be used repeatedly in a program. <br>
+
+A function will not execute automatically when a page loads. <br>
+
+A function will be executed by a call to the function.  <br>
+
+
+# Create a Function
+To create (often referred to as declare) a function, do the following:  <br>
+
+## Use the func keyword.
+
+Specify a name for the function, followed by parentheses ().  <br>
+Finally, add code that defines what the function should do, inside curly braces {}.  <br>
+![image](https://user-images.githubusercontent.com/44522472/169294459-86a8d57a-bfaf-4236-b384-d10d47e3c10e.png)  <br>
+
+# Call a Function
+Functions are not executed immediately. They are "saved for later use", and will be executed when they are called. <br>
+
+In the example below, we create a function named "myMessage()". The opening curly brace ( { ) indicates the beginning of the function code, and the closing curly brace ( } ) indicates the end of the function. The function outputs "I just got executed!". To call the function, just write its name followed by two parentheses ():
+ <br>
+ 
