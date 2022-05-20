@@ -1613,3 +1613,101 @@ func main() {
 ### Result:
 ![image](https://user-images.githubusercontent.com/44522472/169488037-70eca03b-9762-46ce-9f47-f3c55d128197.png)
 
+# Named Return Values
+In Go, you can name the return values of a function. <br>
+
+## Example
+Here, we name the return value as result (of type int), and return the value with a naked return (means that we use the return statement without specifying the variable name): <br>
+``` golang
+package main
+import ("fmt")
+
+func myFunction(x int, y int) (result int) {
+  result = x + y
+  return
+}
+
+func main() {
+  fmt.Println(myFunction(1, 2))
+}
+```
+# Result:
+![image](https://user-images.githubusercontent.com/44522472/169488815-c4404ceb-ea11-4ccb-8ae4-12868425660b.png)
+
+The example above can also be written like this. Here, the return statement specifies the variable name: <br>
+
+``` golang
+package main
+import ("fmt")
+
+func myFunction(x int, y int) (result int) {
+  result = x + y
+  return result
+}
+
+func main() {
+  fmt.Println(myFunction(1, 2))
+}
+```
+# Store the Return Value in a Variable
+You can also store the return value in a variable, like this: <br>
+### Example
+Here, we store the return value in a variable called total:  <br>
+
+``` golang 
+package main
+import ("fmt")
+
+func myFunction(x int, y int) (result int) {
+  result = x + y
+  return
+}
+
+func main() {
+  total := myFunction(1, 2)
+  fmt.Println(total)
+}
+```
+# Multiple Return Values
+Go functions can also return multiple values. <br>
+# Example
+Here, myFunction() returns one integer (result) and one string (txt1): <br>
+
+``` golang
+package main
+import ("fmt")
+
+func myFunction(x int, y string) (result int, txt1 string) {
+  result = x + x
+  txt1 = y + " World!"
+  return
+}
+
+func main() {
+  fmt.Println(myFunction(5, "Hello"))
+}
+```
+## Result:
+![image](https://user-images.githubusercontent.com/44522472/169495135-db2e5c29-995a-442a-a83c-478ae7781260.png)
+
+## Example
+Here, we store the two return values into two variables (a and b):
+``` golang
+package main
+import ("fmt")
+
+func myFunction(x int, y string) (result int, txt1 string) {
+  result = x + x
+  txt1 = y + " World!"
+  return
+}
+
+func main() {
+  a, b := myFunction(5, "Hello")
+  fmt.Println(a, b)
+}
+```
+## Result:
+![image](https://user-images.githubusercontent.com/44522472/169495357-60bce139-b656-42c9-81aa-c94db6d31d0d.png)
+
+If we (for some reason) do not want to use some of the returned values, we can add an underscore (_), to omit this value. <br>
