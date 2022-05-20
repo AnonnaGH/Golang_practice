@@ -1752,3 +1752,5 @@ func main() {
 ## Result:
 ![image](https://user-images.githubusercontent.com/44522472/169495904-cb12a921-2cd6-4825-89da-bbf8f7b3952a.png)
 
+# Go Recursion Functions
+
