@@ -1533,6 +1533,83 @@ func main() {
   myMessage()
 }
 ```
+
 ## Result:
 ![image](https://user-images.githubusercontent.com/44522472/169295391-8ea2c859-a448-46fe-9390-48ba89dc1f42.png)
+
+# Go Function Parameters and Arguments
+## Parameters and Arguments
+Information can be passed to functions as a parameter. Parameters act as variables inside the function.<br>
+
+Parameters and their types are specified after the function name, inside the parentheses. You can add as many parameters as you want, just separate them with a comma: <br>
+
+### Syntax
+![image](https://user-images.githubusercontent.com/44522472/169484734-b30c2dff-2acf-47bf-b65e-bc7b0998a67a.png)
+
+# Function With Parameter Example
+The following example has a function with one parameter (fname) of type string. When the familyName() function is called, we also pass along a name (e.g. Liam), and the name is used inside the function, which outputs several different first names, but an equal last name: <br>
+
+## Example
+``` golang
+package main
+import ("fmt")
+
+func familyName(fname string) {
+  fmt.Println("Hello", fname, "Refsnes")
+}
+
+func main() {
+  familyName("Liam")
+  familyName("Jenny")
+  familyName("Anja")
+}
+```
+# result
+![image](https://user-images.githubusercontent.com/44522472/169485431-da0db327-9813-4bce-848b-16bb307cbbf1.png)
+
+# Multiple Parameters
+Inside the function, you can add as many parameters as you want: <br>
+
+### Example
+``` golang
+package main
+import ("fmt")
+
+func familyName(fname string, age int) {
+  fmt.Println("Hello", age, "year old", fname, "Refsnes")
+}
+
+func main() {
+  familyName("Liam", 3)
+  familyName("Jenny", 14)
+  familyName("Anja", 30)
+}
+```
+## Result:
+![image](https://user-images.githubusercontent.com/44522472/169486397-d1d377a1-83c2-4e17-83d0-3f8bc6076b4f.png)
+### Note: When you are working with multiple parameters, the function call must have the same number of arguments as there are parameters, and the arguments must be passed in the same order.
+
+# Go Function Returns
+## Return Values
+If you want the function to return a value, you need to define the data type of the return value (such as int, string, etc), and also use the return keyword inside the function: <br>
+### Syntax
+![image](https://user-images.githubusercontent.com/44522472/169487702-d93d3d39-55e8-4bca-949f-30f70001ff1e.png)
+
+# Function Return Example
+Here, myFunction() receives two integers (x and y) and returns their addition (x + y) as integer (int): <br>
+
+``` golang
+package main
+import ("fmt")
+
+func myFunction(x int, y int) int {
+  return x + y
+}
+
+func main() {
+  fmt.Println(myFunction(1, 2))
+}
+```
+### Result:
+![image](https://user-images.githubusercontent.com/44522472/169488037-70eca03b-9762-46ce-9f47-f3c55d128197.png)
 
