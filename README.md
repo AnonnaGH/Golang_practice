@@ -1711,3 +1711,44 @@ func main() {
 ![image](https://user-images.githubusercontent.com/44522472/169495357-60bce139-b656-42c9-81aa-c94db6d31d0d.png)
 
 If we (for some reason) do not want to use some of the returned values, we can add an underscore (_), to omit this value. <br>
+## Example
+Here, we want to omit the first returned value (result - which is stored in variable a): <br>
+
+``` golang
+package main
+import ("fmt")
+
+func myFunction(x int, y string) (result int, txt1 string) {
+  result = x + x
+  txt1 = y + " World!"
+  return
+}
+
+func main() {
+   _, b := myFunction(5, "Hello")
+  fmt.Println(b)
+}
+```
+## Result:
+![image](https://user-images.githubusercontent.com/44522472/169495736-529bb0e1-178a-496a-a323-c8acc2325f8d.png)
+
+## Example
+Here, we want to omit the second returned value (txt1 - which is stored in variable b):  <br>
+``` golang
+package main
+import ("fmt")
+
+func myFunction(x int, y string) (result int, txt1 string) {
+  result = x + x
+  txt1 = y + " World!"
+  return
+}
+
+func main() {
+   a, _ := myFunction(5, "Hello")
+  fmt.Println(a)
+}
+```
+## Result:
+![image](https://user-images.githubusercontent.com/44522472/169495904-cb12a921-2cd6-4825-89da-bbf8f7b3952a.png)
+
