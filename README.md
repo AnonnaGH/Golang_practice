@@ -1513,3 +1513,26 @@ func main() {
   myMessage() // call the function
 }
 ```
+
+# Result:
+![image](https://user-images.githubusercontent.com/44522472/169295103-ad0a4774-5722-434c-a596-d19aeb44b2ec.png)
+
+## A function can be called multiple times.
+
+``` golang
+package main
+import ("fmt")
+
+func FunctionName() {
+  fmt.Println("I just got executed!")
+}
+
+func main() {
+  myMessage()
+  myMessage()
+  myMessage()
+}
+```
+## Result:
+![image](https://user-images.githubusercontent.com/44522472/169295391-8ea2c859-a448-46fe-9390-48ba89dc1f42.png)
+
